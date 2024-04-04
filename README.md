@@ -11,7 +11,7 @@ Responsável pela coordenação do processamento. Ele realiza as seguintes opera
 * Quando um worker termina o processamento, armazena o resultado e verifica se todos os workers terminaram.
 * Ao final, combina os resultados dos workers e imprime o resultado final.
 
-2. "worker.js
+2. "worker.js"
 Arquivo executado em uma thread de trabalho e realiza a busca por um parâmetro específico em um arquivo. Suas funcionalidades incluem:
 
 * Importação de módulos necessários, como fs para operações de sistema de arquivos, worker_threads para comunicação com o processo pai e readline para leitura do arquivo linha por linha.
@@ -21,5 +21,5 @@ Arquivo executado em uma thread de trabalho e realiza a busca por um parâmetro 
 * Ao finalizar a busca, envia de volta ao processo pai as linhas que contêm o parâmetro.
 
 Para executar o programa, rode o arquivo index.js seguido do parâmetro que deseja buscar, da seguinte forma:
-
+- exemplo:
 `node index.js bge`
