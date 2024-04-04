@@ -6,7 +6,7 @@ Este repositório contém um sistema de processamento de arquivos em paralelo, d
 Responsável pela coordenação do processamento. Ele realiza as seguintes operações:
 
 * Importa módulos necessários, incluindo fs para operações de sistema de arquivos e worker_threads para  execução de múltiplas threads de trabalho.
-* Lista todos os arquivos em um diretório específico, definido pela constante FILES_OUTPUT_FOLDER.
+* Lista todos os arquivos que estão no diretório "textfiles", definido pela constante FILES_OUTPUT_FOLDER.
 * Para cada arquivo encontrado, inicia um worker thread utilizando o arquivo worker.js.
 * Quando um worker termina o processamento, armazena o resultado e verifica se todos os workers terminaram.
 * Ao final, combina os resultados dos workers e imprime o resultado final.
